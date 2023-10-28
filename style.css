@@ -1,0 +1,78 @@
+
+/* barvy
+pozadi stranky #FAFAFA
+black #000000
+seda button a texty #8B8B8B
+modra button #407BFF
+barva stinu #407BFF1F
+*/
+
+body {
+    background-color: #fafafa;
+    font-family: 'montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 84px;
+    padding: 0;
+    color: #8B8B8B;
+    text-align: center;
+}
+.kontejner
+{
+    display: flex;
+}
+
+img {
+    height: 290px;
+    margin: 60px 75px 0 75px
+}
+
+h1 {
+ color: black;
+ font-size: 28px;
+ 
+}
+
+h2 {
+    color: black;
+}
+
+.button 
+{
+    border-radius: 20px;
+    height: 40px;
+    text-align: center;
+}
+   
+
+
+.dobro {
+    background-color: #407bff;
+    width: 195px;  
+    
+}
+
+.pohoda {
+    background-color: #8B8B8B;
+    width: 220px;
+}
+
+.dobro a {
+    color: white;
+    text-decoration: none;
+    margin: 11px 30px;
+}
+
+.pohoda a {
+    color: white;
+    text-decoration: none;
+}
+
+p {
+    text-align: center;
+}
+
+
+@media (min-width: 800px) {
+	/* css styly */
+}
