@@ -17,68 +17,80 @@ body {
     font-family: 'montserrat', sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    margin: 0 20px;
-    padding: 0;
+    width: 500px;
+    height: 1607px;
     color: #8B8B8B;
     text-align: center;
     width: 460px;
     box-sizing: border-box;
 }
 
-.kontejner
+.kontejner {
+    display: flex;
+    flex-direction: column;
+    margin: 60px 20px;
+  
+
+}
+
+.kontejner1
 {
-    /*display: flex;*/
-    width: 100%;
-    height: auto;
-    margin: 60px 0
+    display: flex;
+    flex-direction:column;
+    
     
 }
 
-img {
+.kontejner1a {
+    
+}
+
+.kontejner1a img {
     height: 290px;
-    margin: 60px 75px 0 75px
+    margin: 60px 0 40px 0;
 }
 
-h1 {
- color: black;
- font-size: 28px;
- font-weight: bold;
- 
+.kontejner1b {
+    
 }
-
-h2 {
+.kontejner1b h1 {
     color: black;
+    font-size: 28px;
     font-weight: bold;
-    font-size: 16px;
+    margin: 0 0 42px 0;
+    
 }
-
+.kontejner1b p {
+    margin: 0 20px 30px 20px;
+}
+.kontejner1c
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .button 
 {
     border-radius: 20px;
-    font-size: 14px;
+    font-size: 13px;
     height: 40px;
     text-align: center;
     box-sizing: border-box;
-    padding: 11px 30px;
-    /*display: inline-block;*/
-
-}
+    padding: 11px 30px;   
+    }
    
-
-
 .dobro {
     background-color: #407bff;
     width: 195px; 
-    /*margin-bottom: 10px;
-    margin-top: 30px;*/
-    margin: 30px 152px 10px 152px;
+    margin-bottom: 10px;
     
 }
 
 .pohoda {
     background-color: #8B8B8B;
     width: 220px;
-    margin: 0 140px 60px 140px;
+
+    
 }
 
 .dobro a {
@@ -93,6 +105,35 @@ h2 {
     
 }
 
+.kontejner2 {
+margin-top: 60px;
+}
+
+.kontejner2a {
+    margin-bottom: 28px;
+}
+.kontejner2b {
+    display: flex;
+    flex-direction: column;
+}
+
+.kontejner3 {
+    margin-top: 60px;
+    margin-bottom: 57px;
+}
+.kontejner3a {
+
+}
+
+
+h2 {
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+
 p {
     text-align: center;
 }
@@ -104,19 +145,22 @@ p {
     margin-bottom: 15px;
     width: 100%;
     height: 80px;
+    display: flex;
+    font-size: 13px;
+    color: #8B8B8B;
 }
 
 .tlacitko img {
     height: 45px;
-    margin: 20px 395px 20px 20px;
-
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
-.tlacitko-obsah {
-    padding: 32px 20px 20px;
-    color: #8B8B8B;
-    font-size: 13px;
-}    
+.tlacitko p {
+    margin-top: 32px;
+    margin-left: 30px;
+}
+  
 
 @media (min-width: 800px) {
 	/* css styly */
