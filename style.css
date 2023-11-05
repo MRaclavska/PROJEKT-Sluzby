@@ -32,7 +32,7 @@ body {
 
 .kontejner1a img {
     height: 290px;
-    margin: 60px 0 40px 0;
+    margin: 0 0 40px 0;
 }
 
 .kontejner1b h1 {
@@ -94,8 +94,12 @@ margin-top: 60px;
 }
 
 .kontejner3 {
-    margin-top: 60px;
+    margin-top: 45px;
     margin-bottom: 57px;
+}
+
+.kontejner3a {
+    margin-bottom: 30px;
 }
 
 h2 {
@@ -208,5 +212,11 @@ p {
 }      
 
 @media (min-width: 1100px) {
-	
+	.kontejner1 {
+        display: flex;
+        flex-direction: row;
+        max-width: 1040px;
+    }
+    .kontejner1a
+
 }
