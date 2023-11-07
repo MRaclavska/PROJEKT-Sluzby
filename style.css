@@ -146,6 +146,7 @@ p {
     .kontejner1a img {
         height: 332px;
         margin-bottom: 0;
+        align-items: center;
     }
     .kontejner1b {
         margin-top: 40px;
@@ -222,21 +223,28 @@ p {
         max-width: 1040px;
         margin-top: 60px;
         margin-bottom: 40px;
+        align-items: center;
     }
     .kontejner1a {
+        display: flex;
         order: 3;
         max-width: 490px;
+        justify-content: center;
             }
 
     .kontejner1a img {
-        height: 354px;
-        align-self: center;
+        height: 354px;   
+       
     }
 
     .kontejner1b {
         max-width: 490px;
-        text-align: left;
         margin: 0;
+        
+    }
+
+    .dobro a {
+        margin-left: 0;
     }
 
     .kontejner1b p {
@@ -244,12 +252,23 @@ p {
         margin: 0;
     }
 
+    .dobro {
+        margin-left: 0;
+    }
+
+    .kontejner1bc {
+        margin-right: 60px;
+        text-align: left;
+    }
+
     .kontejner1c {
+        display: flex;
+        justify-content: flex-start;
         margin-top: 30px;
     }
 
     .button{
-            align-self: flex-start;
+        align-self: flex-start;
     }
 
     .kontejner2 {
@@ -275,6 +294,7 @@ p {
 
     .tlacitko {
         margin-bottom: 0;
+        height: 191px;
     }
 
     .tlacitko p {
@@ -309,6 +329,10 @@ p {
         flex-direction: row;
         max-width: 550px;
         margin: 0;
+    }
+
+    .tlacitko img {
+        margin: 40px 0 0 0;
     }
 
 }
